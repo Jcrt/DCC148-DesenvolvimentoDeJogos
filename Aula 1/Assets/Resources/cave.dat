@@ -1,0 +1,7 @@
+1	Você está no meio de uma floresta. Adiante, você vê a entrada de uma caverna.
+2	Você está na porta da caverna.
+-1
+
+1	2	-1	-1	-1
+2	-1	-1	1	-1
+-1
