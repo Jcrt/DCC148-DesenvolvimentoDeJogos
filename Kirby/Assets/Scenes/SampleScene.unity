@@ -289,6 +289,7 @@ GameObject:
   - component: {fileID: 891350769}
   - component: {fileID: 891350768}
   - component: {fileID: 891350771}
+  - component: {fileID: 891350772}
   m_Layer: 0
   m_Name: kirby_2
   m_TagString: Untagged
@@ -346,7 +347,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 3b9d223ee5713a945a25ab4567fa944e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -381,7 +382,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 517baa594c7ba1c4692eba5b79723575, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spped: 3
+  speed: 3
+  maxJump: 0.35
+  baseHeight: 0
+  gravity: 0
+--- !u!50 &891350772
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 891350767}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &977310709
 Prefab:
   m_ObjectHideFlags: 0
